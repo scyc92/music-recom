@@ -21,6 +21,7 @@ Ensure the following are installed before running the code:
 <li>Docker: To run and manage containerized services.
 <li>Kafka-Python: Python client for interacting with Kafka.
 <br>
+<br>
 Other necessary libraries and frameworks include Spark Streaming, Kafka Streams, Zookeeper, and standard Python libraries such as Pandas and Scikit-learn.
 
 ## Credits
