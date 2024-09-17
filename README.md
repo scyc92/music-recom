@@ -15,11 +15,11 @@ The project builds a real-time music recommendation system for Spotify using dis
 ## Dependencies
 Ensure the following are installed before running the code:
 
-Python
-Apache Kafka: For managing the real-time streaming data.
-PySpark: For distributed data processing and machine learning.
-Docker: To run and manage containerized services.
-Kafka-Python: Python client for interacting with Kafka.
+<li>Python
+<li>Apache Kafka: For managing the real-time streaming data.
+<li>PySpark: For distributed data processing and machine learning.
+<li>Docker: To run and manage containerized services.
+<li>Kafka-Python: Python client for interacting with Kafka.
 Other necessary libraries and frameworks include Spark Streaming, Kafka Streams, Zookeeper, and standard Python libraries such as Pandas and Scikit-learn.
 
 ## Credits
