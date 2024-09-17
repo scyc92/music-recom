@@ -9,10 +9,8 @@ The project builds a real-time music recommendation system for Spotify using dis
 
 
 ## Contents
-    - 01-cria_containers_docker.txt: Instructions for setting up Docker containers for the Kafka cluster.
-    - 02-cria_e_lista_topico_kafka.txt: Instructions for creating and listing Kafka topics.
-    - Mini-Projeto7-Parte1.ipynb: Part 1 of the project focusing on initial setup and data ingestion.
-    - Mini-Projeto7-Parte2.ipynb: Part 2 of the project, which includes model building and real-time data processing.
+
+
 
 ## Dependencies
 Ensure the following are installed before running the code:
