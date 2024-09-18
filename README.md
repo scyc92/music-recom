@@ -11,7 +11,6 @@ The project builds a real-time music recommendation system for Spotify using dis
 ## Contents
 
 
-
 ## Dependencies
 Ensure the following are installed before running the code:
 
@@ -23,6 +22,16 @@ Ensure the following are installed before running the code:
 <br>
 <br>
 Other necessary libraries and frameworks include Spark Streaming, Kafka Streams, Zookeeper, and standard Python libraries such as Pandas and Scikit-learn.
+
+## How to run
+
+<li> 1. Create the docker (containers_docker.txt)
+<li> 2. Open Kafka Terminal
+<li> 3. Create the Kafka topic (kafka_topic.txt)
+<li> 4. Run Music_Recom_1.ipybnb
+<li> 5. Consume data in Kafka topic (kafka_topic.txt)
+<li> 6. Run Music_Recom_2.ipybnb
+<li> 7. Change spotify client/secret/username
 
 ## Credits
 This project was developed as part of the Data Science Academy's course. The system architecture follows best practices in real-time data processing and machine learning, focusing on scalable and efficient recommendation systems for the music streaming domain.

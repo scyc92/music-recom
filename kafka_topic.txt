@@ -1,0 +1,22 @@
+# Access theKafka container and run the following commands to create and view a Kafka topic:
+
+- Open terminal:
+bash
+
+- Navigate to the Kafka binary folder:
+cd /opt/kafka/bin
+
+- Create a Kafka topic:
+kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic music-recommendation
+
+
+- List created topics:
+kafka-topics.sh --list --zookeeper zookeeper:2181
+
+
+- Get details about the topic:
+kafka-topics.sh --describe --zookeeper zookeeper:2181
+
+
+- Consume the streaming data:
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic music-recommendation --from-beginning

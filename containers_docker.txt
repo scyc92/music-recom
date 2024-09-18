@@ -1,0 +1,7 @@
+# Open the command prompt or terminal, navigate to the project folder, and run the command below:
+
+docker-compose up -d
+
+# To shut down the Kafka cluster, run:
+
+docker-compose down
