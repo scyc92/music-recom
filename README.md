@@ -10,6 +10,14 @@ The project builds a real-time music recommendation system for Spotify using dis
 
 ## Contents
 
+<li> data : Dataset
+<li> jars : Spark jars connectors
+<li> output : Result of recommendation
+<li> containers_docker.txt : Guide for docker
+<li> docker-compose.yml : Docker configuration
+<li> kafka_topic.txt : Guide for Kafka
+<li> Music_Recom_1.ipynb : Data Ingestion and Preprocessing
+<li> Music_Recom_2.ipynb : Spark Streaming and Machine Learning
 
 ## Dependencies
 Ensure the following are installed before running the code:
